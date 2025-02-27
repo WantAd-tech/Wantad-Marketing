@@ -287,7 +287,8 @@ a {
 }
 .preloader-wrap img {
     display: block;
-    max-width: 100%;
+    max-width: 40%;
+    padding-bottom: 15px;
 }
 
 
@@ -314,7 +315,7 @@ a {
     font-size: 20px;
 }
 .header-menu-wrap .logo img {
-    max-width: 81px;
+    max-width: 130px;
     display: block;
 }
 .header-menu-wrap .navbar .menu {
@@ -2838,6 +2839,7 @@ a {
 .footer-area .footer-bottom img {
     display: block;
     width: 100%;
+    padding: 15%;
 }
 .footer-area .footer-top {
     padding: 60px 72px 90px;
