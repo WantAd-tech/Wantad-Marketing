@@ -955,11 +955,12 @@ a {
 .team-member-box .img-box img {
     display: block;
     width: 100%;
-    height: 610px;
+    height: 550px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     object-fit: cover;
+    border-radius: 10px;
 }
 .team-member-box .img-box {
     position: relative;
