@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "css-minimizer-webpack-plugin": "^7.0.2",
+    "terser-webpack-plugin": "^5.3.14"
+  }
+}

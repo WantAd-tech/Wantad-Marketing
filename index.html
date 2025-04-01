@@ -40,7 +40,10 @@
 
     <!-- ===== Preloader Start ===== -->
     <div class="preloader-wrap">
-        <video src="./assets/video/logo video.mp4" loop muted autoplay="" playsinline=""></video>
+        <video id="lazyPreloaderVideo" loop muted autoplay playsinline>
+            <source data-src="./assets/video/logo video.mp4" type="video/mp4">
+
+        </video>
         <!-- <img src="./assets/images/logo-1.png" alt="Logo"> -->
     </div>
     <!-- ===== Preloader End ===== -->
@@ -509,7 +512,66 @@
 
 
                 <div class="feature-project-lists">
-                    <!-- Project 1 -->
+                                      <!-- kriztle mp4-->
+                                      <div class="feature-project">
+                                        <!-- <div class="hover_mouse">
+                                            <a href="./project-single3.html">View</a>
+                                        </div> -->
+                                        <div class="img-box">
+                                            <video src="./assets/video/bottile.mp4" loop muted autoplay="" playsinline=""></video>
+                                        </div>
+                                        <div class="feature-project-infos">
+                                            <div class="feature-project-info-box">
+                                                <span class="title">Project Name:</span>
+                                                <a href="#">
+                                                    <span class="subtitle">Mountain by Kriztle</span>
+                                                </a>
+                                            </div>
+                                            <!-- <div class="feature-project-info-box">
+                                                <span class="title">Description</span>
+                                                <span class="subtitle">
+                                                    The handmade art of threads where heritage meets modern couture tell a story.</span>
+                                            </div> -->
+                                            <div class="feature-project-info-box">
+                                                <span class="title">Industry:</span>
+                                                <span class="subtitle">Beverage Industry</span>
+                                            </div>
+                                            <!-- <div class="feature-project-info-box">
+                                                <span class="title">Release Date:</span>
+                                                <span class="subtitle">March 1st, 2024</span>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                    <!-- kriztle image -->
+                    <div class="feature-project">
+                        <!-- <div class="hover_mouse">
+                            <a href="./project-single1.html">View</a>
+                        </div> -->
+                        <div class="img-box">
+                            <img src="./assets/images/kriztle imG.png" alt="image" >
+                        </div>
+                        <div class="feature-project-infos">
+                            <div class="feature-project-info-box">
+                                <span class="title">Project Name:</span>
+                                <a href="#">
+                                    <span class="subtitle">Mountain by Kriztle</span>
+                                </a>
+                            </div>
+                            <!-- <div class="feature-project-info-box">
+                                <span class="title">Description</span>
+                                <span class="subtitle">The smell of roasted coffee beans blends with the flavoured shisha fumes to witness the moments with your favourites or beloved ones to cherish the beauty of memories.</span>
+                            </div> -->
+                            <div class="feature-project-info-box">
+                                <span class="title">Industry:</span>
+                                <span class="subtitle">Beverage Industry</span>
+                            </div>
+                            <!-- <div class="feature-project-info-box">
+                                <span class="title">Release Date:</span>
+                                <span class="subtitle">May 6th, 2024</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- sorapara -->
                     <div class="feature-project">
                         <!-- <div class="hover_mouse">
                             <a href="./project-single1.html">View</a>
@@ -545,7 +607,7 @@
                             <a href="./project-single2.html">View</a>
                         </div> -->
                         <div class="img-box">
-                            <img style="height: 90%;" src="./assets/images/FAMBYHOme.png" alt="image" >
+                            <img style="height: 90%;" src="./assets/images/FAMBY2.jpg" alt="image" >
                         </div>
                         <div class="feature-project-infos">
                             <div class="feature-project-info-box">
@@ -702,7 +764,7 @@
                 </div> -->
                 <div class="team-member-box" data-aos="fade-up">
                     <div class="img-box">
-                        <img src="./assets/images/AshiqMohammad.jpg" alt="team-img">
+                        <img src="./assets/images/AshiqMohammad.jpg" alt="team-img"loading="lazy">
                     </div>
                     <div class="content">
                         <span class="name">Ashiq Mohammad</span>
@@ -716,7 +778,7 @@
                 <!-- Team Member 2 -->
                 <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="img-box">
-                        <img src="./assets/images/sreeraj therumbil.jpg" alt="team-img">
+                        <img src="./assets/images/sreeraj therumbil.jpg" alt="team-img"loading="lazy">
                     </div>
                     <div class="content">
                         <span class="name">Sreeraj Therumbil</span>
@@ -730,7 +792,7 @@
                 <!-- Team Member 3 -->
                 <div class="team-member-box" data-aos="fade-up" data-aos-delay="400">
                     <div class="img-box">
-                        <img src="./assets/images/sudhin.jpg" alt="team-img">
+                        <img src="./assets/images/sudhin.jpg" alt="team-img" loading="lazy">
                     </div>
                     <div class="content">
                         <span class="name">Sudhin U </span>
@@ -744,7 +806,7 @@
                 <!-- Team Member 4 -->
                 <div class="team-member-box" data-aos="fade-up">
                     <div class="img-box">
-                        <img src="./assets/images/abdurahman.jpg" alt="team-img">
+                        <img src="./assets/images/abdurahman.jpg" alt="team-img" loading="lazy">
                     </div>
                     <div class="content">
                         <span class="name">Abdurahman </span>
@@ -759,7 +821,7 @@
                 <!-- Team Member 5 -->
                 <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="img-box">
-                        <img src="./assets/images/sanjaikp.jpg" alt="team-img">
+                        <img src="./assets/images/sanjaikp.jpg" alt="team-img"loading="lazy">
                     </div>
                     <div class="content">
                         <span class="name">Sanjai K P</span>
@@ -771,7 +833,7 @@
                 <!-- Team Member 6 -->
                 <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="img-box">
-                        <img src="./assets/images/abhishek.jpg" alt="team-img">
+                        <img src="./assets/images/abhishek.jpg" alt="team-img" loading="lazy">
                     </div>
                     <div class="content">
                         <span class="name">Abhishek</span>
@@ -784,7 +846,7 @@
                 <!-- Team Member 7 -->
                 <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="img-box">
-                        <img src="./assets/images/krishnaprasad.jpg" alt="team-img">
+                        <img src="./assets/images/krishnaprasad.jpg" alt="team-img" loading="lazy">
                     </div>
                     <div class="content">
                         <span class="name">Krishnaprasad K V </span>
@@ -796,7 +858,7 @@
                 <!-- Team Member 8 -->
                 <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="img-box">
-                        <img src="./assets/images/anirudh.jpg" alt="team-img">
+                        <img src="./assets/images/anirudh.jpg" alt="team-img" loading="lazy">
                     </div>
                     <div class="content">
                         <span class="name">Anirudh V S
@@ -811,7 +873,7 @@
                 <!-- Team Member 9 -->
                 <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="img-box">
-                        <img src="./assets/images/sreenath.jpg" alt="team-img">
+                        <img src="./assets/images/sreenath.jpg" alt="team-img" loading="lazy">
                     </div>
                     <div class="content">
                         <span class="name">
@@ -827,7 +889,7 @@
              <!-- Team Member 10 -->
                               <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
                                 <div class="img-box">
-                                    <img src="./assets/images/ajith.jpg" alt="team-img">
+                                    <img src="./assets/images/ajith.jpg" alt="team-img" loading="lazy">
                                 </div>
                                 <div class="content">
                                     <span class="name">Ajith V P</span>
@@ -840,7 +902,7 @@
                 <!-- Team Member 11 -->
                 <div class="team-member-box" data-aos="fade-up" data-aos-delay="200">
                     <div class="img-box">
-                        <img src="./assets/images/jishnuraj.jpg" alt="team-img">
+                        <img src="./assets/images/jishnuraj.jpg" alt="team-img" loading="lazy">
                     </div>
                     <div class="content">
                         <span class="name">Jishnuraj
@@ -1289,18 +1351,27 @@
                 <li><img src="./assets/images/sorapara.png" alt="client"></li>
                 <li><img src="./assets/images/hundredhands.png" alt="client"></li>
                 <li><img src="./assets/images/fambyLB.png" alt="client"></li>
+                <li><img src="./assets/images/NEW mountain white logo.png" alt="client"></li>
+                <li><img src="./assets/images/cosmo cure.png" alt="client" style="width: 200px; height: auto;"></li>
+                <li><img src="./assets/images/hangouts.png" alt="client"></li>
                 <!-- Duplicated -->
                 <li><img src="./assets/images/kasooriLB.png" alt="client"></li>
                 <li><img src="./assets/images/LetinLB.png" alt="client"></li>
                 <li><img src="./assets/images/sorapara.png" alt="client"></li>
                 <li><img src="./assets/images/hundredhands.png" alt="client"></li>
                 <li><img src="./assets/images/fambyLB.png" alt="client"></li>
+                <li><img src="./assets/images/NEW mountain white logo.png" alt="client"></li>
+                <li><img src="./assets/images/cosmo cure.png" alt="client" style="width: 200px; height: auto;"></li>
+                <li><img src="./assets/images/hangouts.png" alt="client"></li>
                 <!-- Duplicated -->
                 <li><img src="./assets/images/kasooriLB.png" alt="client"></li>
                 <li><img src="./assets/images/LetinLB.png" alt="client"></li>
                 <li><img src="./assets/images/sorapara.png" alt="client"></li>
                 <li><img src="./assets/images/hundredhands.png" alt="client"></li>
                 <li><img src="./assets/images/fambyLB.png" alt="client"></li>
+                <li><img src="./assets/images/NEW mountain white logo.png" alt="client"></li>
+                <li><img src="./assets/images/cosmo cure.png" alt="client" style="width: 200px; height: auto;"></li>
+                <li><img src="./assets/images/hangouts.png" alt="client"></li>
             </ul>
         </div>
         <!-- ===== Partner End ===== -->
@@ -1415,6 +1486,23 @@
 
     </main>
     <!-- ===== Main End ===== -->
+
+    <script>
+        const video = document.getElementById('lazyPreloaderVideo');
+        const source = video.querySelector('source');
+    
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    source.src = source.dataset.src;
+                    video.load();
+                    observer.disconnect(); // Stop observing after the video is loaded
+                }
+            });
+        });
+    
+        observer.observe(video); // Start observing the video element
+    </script>
 
     <!-- ===== Scripts ===== -->
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
